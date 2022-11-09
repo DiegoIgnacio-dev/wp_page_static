@@ -1,0 +1,14 @@
+Para crear nuestra pagina estatica base de wp crearemos varios archivos 
+en necesario crear una serie de archivos en css y que estos a su ves esten
+importados en un css principal de esta manera:
+
+style.css
+/**Import Styles**/
+@import url('css/bootstrap.min.css');
+@import url('css/general.css');
+@import url('css/home.css');
+@import url('css/nav.css');
+@import url('css/img_header.css');
+@import url('css/footer.css');
+@import url('css/sidebar.css');
+@import url('css/searchform.css');
